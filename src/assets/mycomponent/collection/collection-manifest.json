@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "tag": "bye-bye",
+      "dependencies": [],
+      "componentClass": "MyComponent",
+      "componentPath": "components/my-component/my-component.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-component/my-component.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "image",
+          "type": "String",
+          "attr": "image"
+        },
+        {
+          "name": "message",
+          "type": "String",
+          "attr": "message"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.8",
+    "typescriptVersion": "2.8.1"
+  },
+  "bundles": []
+}
