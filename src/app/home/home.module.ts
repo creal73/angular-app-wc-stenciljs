@@ -10,8 +10,6 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { QuoteService } from './quote.service';
 
-import 'my-component/dist/mycomponent';
-
 @NgModule({
   imports: [
     CommonModule,
