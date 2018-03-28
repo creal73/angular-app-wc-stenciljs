@@ -9,6 +9,7 @@ import { MaterialModule } from './material.module';
 import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 import { HomeModule } from './home/home.module';
+import { WCModule } from './web-component/wc.module';
 import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -24,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
     CoreModule,
     SharedModule,
     HomeModule,
+    WCModule,
     AboutModule,
     AppRoutingModule
   ],

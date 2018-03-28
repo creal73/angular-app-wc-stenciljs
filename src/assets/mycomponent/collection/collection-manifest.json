@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "tag": "bye-bye",
+      "tag": "yo-la",
       "dependencies": [],
       "componentClass": "MyComponent",
       "componentPath": "components/my-component/my-component.js",
